@@ -1,12 +1,18 @@
-function Tours(props) {
-    return(
+import './Tours.css';
+import Tour from './Tour/Tour';
+
+function Tours(props){
+
+return(
+   
         <div>
-            <p> {props.name} </p>
-            <img src={props.image} alt={"image of "+props.name} />
+             <Tour dataTours={props.dataTour}/>
             
         </div>
         
     );
     
+
 }
+
 export default Tours;

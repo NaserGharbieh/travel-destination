@@ -1,0 +1,13 @@
+#Detail{ 
+    
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 50%;
+text-align: center; 
+padding-left: 400px;
+} 
+img{margin-top: 2%; 
+    width:80% ; 
+    height: 10%;}
