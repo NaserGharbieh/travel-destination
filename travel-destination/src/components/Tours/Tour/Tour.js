@@ -7,7 +7,6 @@ function Tour(props){
 return(
     
     <>  
-<h1 style={{fontSize:'50px',marginLeft:'100px'}}>Travel Destination</h1>
     <div id="my-Tour"> 
 
         {props.dataTours.map((item)=>{

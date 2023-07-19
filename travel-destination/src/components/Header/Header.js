@@ -1,6 +1,11 @@
+import React from "react";  
+import Navbar from "../Navbar/Navbar";
 function Header() {
     return(
-        <h1> Travel-Destination </h1>
+        <div>
+        <h1> Travel-Destination </h1> 
+        <Navbar/>
+        </div>
     );
     
 }
